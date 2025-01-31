@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body>
+    <h1>About Me</h1>
+
+    <!-- Picture Element with Responsive Images -->
+    <picture>
+        <source media="(max-width: 600px)" srcset="assets/images/headshot_sm.jpg">
+        <source media="(max-width: 1024px)" srcset="assets/images/headshot_md.jpg">
+        <source media="(min-width: 1025px)" srcset="assets/images/headshot_lg.jpg">
+        <img src="assets/images/headshot_md.jpg" alt="A picture of me">
+    </picture>
+
+    <!-- Audio Element -->
+    <h2>My Favorite Music</h2>
+    <p>Here's a song that I listen to most times:</p>
+    <audio controls>
+        <source src="assets/audio/fat_funny_friend.mp3" type="audio/mpeg">
+        <source src="assets/audio/sunflower.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Video Element -->
+    <h2>My Music Life</h2>
+    <p>Watch this short video about my passion for music:</p>
+    <video controls width="600">
+        <source src="assets/videos/c_gospel_chords.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
